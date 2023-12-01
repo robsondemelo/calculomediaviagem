@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Calculadora de Média de Combustível</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Calculadora de Média de Combustível</h1>
+    <label for="kmInicial">Kilometragem Inicial:</label>
+    <input type="number" id="kmInicial" required>
+
+    <label for="kmFinal">Kilometragem Final:</label>
+    <input type="number" id="kmFinal" required>
+
+    <label for="litros">Litros de Combustível:</label>
+    <input type="number" id="litros" required>
+
+    <button onclick="calcularMedia()">Salvar e Calcular Média</button>
+
+    <div id="resultados"></div>
+    <footer>&copy; Desenvolvido por <a href="https://github.com/robsondemelo">Robson Melo</a></footer>
+  </div>
+  
+
+  <script src="script.js"></script>
+</body>
+</html>
